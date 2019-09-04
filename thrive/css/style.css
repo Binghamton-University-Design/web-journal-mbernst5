@@ -1,0 +1,30 @@
+*, *::before, *::after{
+	box-sizing: border-box;
+}
+
+html{
+	text-align: center;
+}
+
+body{
+	margin: 0;
+	background-color: #fff;
+	color: #333
+}
+
+.page-wrap{
+	background-color: pink;
+	position: relative;
+	max-width: 1200px;
+	margin:0 auto;
+}
+
+.flex-content{
+	display: flex;
+}
+
+.vertically-centered{
+	width: 100%;
+	text-align: center;
+	align-self: center;
+}

@@ -1,0 +1,374 @@
+html{font-size:75% // 20px;}
+@media(max-device-width:480px){
+	html{font-size:100%//16px}
+}
+/* Style the header */
+.header {
+  position: fixed;
+  top: 0;
+	background-image: linear-gradient(to left, #FEF3c3, #666766);
+	padding-top: 20px;
+}
+.cover{
+	background-color: white;
+	opacity: 1;
+		-webkit-transition: background-color 1s;
+  	  	-moz-transition: background-color 1s;
+    	transition: background-color 1s;
+}
+
+.cover-alt{
+	background-color: none;
+	opacity: 1;
+		-webkit-transition: background-color 1s;
+  	  	-moz-transition: background-color 1s;
+    	transition: background-color 1s;
+
+}
+
+#info{
+	background-color: #BCBEC0;
+	width: 100%;
+	height: auto;
+	display: block;
+	align-self: center;
+	position: relative;
+}
+#info img{
+	width: 100%;
+	height: auto;
+}
+@media(min-width: 700px){
+	.svg{
+		max-height: 175px;
+		padding-bottom: 20px;
+		text-align: center;
+		-webkit-transition: max-height 1s;
+  	  	-moz-transition: max-height 1s;
+    	transition: max-height 1s;
+	}
+	body{
+		padding-top: 190px;
+
+	}
+
+	.shrink{
+	max-height: 75px;
+    -webkit-transition: max-height 1s;
+    -moz-transition: max-height 1s;
+    transition: max-height 1s;	
+}
+	h1{
+	font-family: futura-pt;
+	padding-top: 100px;
+	padding-left: 50px;
+	padding-right: 50px;
+	color: #F9E690;
+	font-size: 50px;
+}
+
+	.cover p{
+	padding-right: 300px;
+	padding-left: 300px;
+	padding-top: 50px;
+	font-size: 24px;
+	font-family: futura-pt;
+	color: #666766;
+	font-weight: 500
+}
+	.cover-alt p{
+	padding-right: 300px;
+	padding-left: 300px;
+	padding-top: 50px;
+	font-size: 24px;
+	font-family: futura-pt;
+	color: #666766;
+	font-weight: 500
+}
+	.gif{
+		width: 200px;
+
+	}
+	#stats1{
+	width: 100%;
+	height: auto;
+	transition: all 1s ease-in-out;
+	padding-top: 200px;
+}
+
+footer{
+	background-color: #F9E690;
+}
+footer p3{
+	color: #666766;
+	font-size: 12px;
+	font-family: futura-pt;
+	padding: 4px;
+
+}
+
+}
+
+.header, .topnav{
+	width: 100%;
+	z-index: 10
+  	/*margin-left: -10%;
+  	/*there is a better way to do this, figure it out */
+}
+/* search bar */
+	.tftextinput{
+		font-family: futura-p, Helvetica, sans-serif;
+		font-size:12px;
+		
+	}
+	.tfbutton {
+		padding-top: 2px;
+		padding-bottom: 2px;
+		color: #666766;
+		font-family: futura-pt, sans-serif;
+		background: -webkit-gradient(linear, left top, left bottom, from(#f9e690), to(#fef3c3));
+		background: -moz-linear-gradient(top,  #F9E690,  #FEF3C3);
+	}
+	.tfbutton:hover {
+		text-decoration: none
+		background: #007ead;
+		background: -webkit-gradient(linear, left top, left bottom, from(#e2e2e2), to(#666766));
+		background: -moz-linear-gradient(top,  #e2e2e2,  #666766);
+		
+	}
+	/* Fixes submit button height problem in Firefox */
+	}
+	.tfclear{
+		clear:both;
+	}
+/* Page content */
+.content {
+  padding: 10px;
+  z-index: -1;
+}
+
+.line{
+	background-color: #f9e690;
+}
+.topnav{
+	background-color: #f9e690;
+	font-family: 'futura-pt', sans-serif;
+	display: inline;
+	max-width: 80%;
+	margin: 10px;
+	height: 20px;
+	text-decoration: none;
+	font-size: 14px;
+	font-weight: 500;
+}
+
+.topnav a {
+	padding-right: 10px;
+	padding-left: 10px;
+	color: #666766;
+}
+.topnav a:hover{
+	background-color: #FEF3C3;
+}
+
+}
+
+*, *::before, *::after{
+	box-sizing: border-box;
+}
+
+html{
+	text-align: center;
+}
+
+body{
+	margin: 0;
+	background-image: linear-gradient(to bottom, #FEF3c3, #666766);
+	color: #333;
+	
+}
+
+
+
+
+/*.hex, .stories{
+	height: 50px;
+	position: relative;
+	float: left;
+	float: top;
+	margin-top: 0;
+	padding-bottom: 10px 
+}*/
+
+.page-wrap{
+	position: relative;
+	max-width: 1200px;
+	margin:0 auto;
+
+}
+
+.flex-content{
+	display: flex;
+	position: relative;
+}
+
+/*.stories {
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	background-color: #f9e690;
+	text-align: right;
+	vertical-align: center;
+	height: 75px;
+	padding: 16px;
+	display: none;
+}*/
+
+.quote{
+	background-image: url(../images/pullquote.png);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.quote-holder{
+	display: table;
+	align-self: center;
+	position: relative;
+	z-index: 11;
+	min-height: 275px;
+}
+
+.quote-holder p{
+	font-family: futura-pt;
+	font-weight: 700;
+	font-size: 12px;
+	color: #666766;
+	margin: 20px;
+	font-style: italic;
+	text-align: left;
+	text-indent: 15px;
+	display: table-cell;
+	vertical-align: middle;
+	padding: 40px;
+}
+.overlay:hover{
+	top: 0;
+	left: 0;
+	position: relative;
+	z-index: 0;
+	width: 100%;
+	height: 100%;
+	background-color: white;
+}
+
+
+@media (max-width: 700px){
+
+	#stats1{
+		width: 100%;
+		height: auto;
+	display: block;
+	align-self: center;
+	position: relative;
+	}
+/*
+	.stories{
+		height: 38px;
+		padding: 8px;
+	} 
+
+	.hex{
+	height: 25px;
+	margin-top: 0;
+	padding-bottom: 5px
+	} */
+
+	.svg{
+		max-height: 115px;
+		padding-bottom: 10px;
+		text-align: center;
+		-webkit-transition: max-height 1s;
+  	  	-moz-transition: max-height 1s;
+    	transition: max-height 1s;
+	}
+
+
+	.shrink{
+		max-height: 75px;
+		-webkit-transition: max-height 1s;
+  	  	-moz-transition: max-height 1s;
+    	transition: max-height 1s;
+	}
+
+	body{
+		padding-top: 115px;
+	}
+	h1{
+	font-family: futura-pt;
+	padding-top: 100px;
+	padding-left: 20px;
+	padding-right: 20px;
+	color: #F9E690;
+	font-size: 50px;
+}
+
+	.cover p{
+	padding-right: 100px;
+	padding-left: 100px;
+	padding-top: 50px;
+	font-size: 24px;
+	font-family: futura-pt;
+	color: #666766;
+	font-weight: 500;
+}
+	.cover-alt p{
+	padding-right: 100px;
+	padding-left: 100px;
+	padding-top: 50px;
+	font-size: 24px;
+	font-family: futura-pt;
+	color: #666766;
+	font-weight: 500;
+}
+	.gif{
+		width: 150px;
+
+	}
+	#stats1{
+	width: 100%;
+	height: auto;
+	transition: all 1s ease-in-out;
+	padding-top: 10px;
+	display: block;
+	align-self: center;
+	position: relative;
+}
+	.quote-holder p{
+	font-family: futura-pt;
+	font-weight: 700;
+	font-size: 12px;
+	color: #666766;
+	margin: 20px;
+	font-style: italic;
+	text-align: left;
+	text-indent: 15px;
+	display: table-cell;
+	vertical-align: middle;
+	padding: 40px;
+}
+footer{
+	background-color: #F9E690;
+	color: #666766;
+	font-size: 8px;
+	font-family: futura-pt;
+	padding: 4px;
+}
+footer p3{
+	color: #666766;
+	font-size: 12px;
+	font-family: futura-pt;
+	padding: 4px;
+
+}
+}

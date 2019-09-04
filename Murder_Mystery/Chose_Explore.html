@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+	<head>
+
+		<title>Murder Mystery</title>
+
+		<link rel="stylesheet" href="Style/style.css">
+
+	</head>
+
+	<body>
+
+		<video autoplay muted loop id="myVideo">
+			<source src="Media/SLOW.mp4" type="video/mp4">
+			Your browser does not support the video tag.
+		</video>
+
+		<div id="wrapper">
+			<div id="scene">
+
+				<img src="Media/Kitchen_Scene.png" id="Background">
+
+				<a href="Chose_MKnife.html" id="ChoiceKnife"></a>
+
+				<a href="Chose_MPin.html" id="ChoicePin"></a>
+
+				<p id="Situation">You run into the kitchen to find the victim just standing there. There is a knife and a rolling pin sitting on the counter, which do you grab?<br>The <a href="Chose_MKnife.html">KNIFE</a> or the <a href="Chose_MPin.html">ROLLING PIN</a>?</p>
+			</div>
+		</div>
+
+		<iframe src="Media/silence.mp3" allow="autoplay" id="audio"></iframe>
+
+		<audio id="music" autoplay loop>
+				 	
+			<source src="Media/Storm.mp3" type="audio/mp3"> 
+
+		</audio>
+
+	</body>
+</html>

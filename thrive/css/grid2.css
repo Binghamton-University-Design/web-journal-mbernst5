@@ -1,0 +1,213 @@
+/* GRID SETUP */
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-gap: 1em;
+}
+
+
+.height-2 {
+  grid-row: span 2;
+}
+
+.height-3 {
+  grid-row: span 3;
+}
+
+
+@media (max-width: 700px) {
+  .order-1 {
+    order: 1;
+  }
+
+  .order-2 {
+   order: 2;
+  }
+
+  .order-3 {
+   order: 3;
+  }
+
+  .order-4 {
+   order: 4;
+  }
+
+  .order-5 {
+   order: 5;
+  }
+
+  .order-6 {
+   order: 6;
+  }
+
+  .order-7 {
+   order: 7;
+  }
+
+  .order-8 {
+   order: 8;
+  }
+
+}
+
+
+.width-1-12 {
+  grid-column: span 1;
+}
+
+.width-2-12 {
+  grid-column: span 2;
+}
+
+.width-3-12 {
+  grid-column: span 3;
+}
+
+.width-4-12 {
+  grid-column: span 4;
+}
+
+.width-5-12 {
+  grid-column: span 5;
+}
+
+.width-6-12 {
+  grid-column: span 6;
+}
+
+.width-7-12 {
+  grid-column: span 7;
+}
+
+.width-8-12 {
+  grid-column: span 8;
+}
+
+.width-9-12 {
+  grid-column: span 9;
+}
+
+.width-10-12 {
+  grid-column: span 10;
+}
+
+.width-11-12 {
+  grid-column: span 11;
+}
+
+.width-12-12 {
+  grid-column: span 12;
+}
+
+@media (min-width: 700px) {
+
+.width-1-12s {
+    grid-column: span 1;
+  }
+
+.width-2-12s {
+    grid-column: span 2;
+  }
+
+.width-3-12s {
+    grid-column: span 3;
+  }
+
+.width-4-12s {
+    grid-column: span 4;
+  }
+
+.width-5-12s {
+    grid-column: span 5;
+  }
+
+.width-6-12s {
+    grid-column: span 6;
+  }
+
+.width-7-12s {
+    grid-column: span 7;
+  }
+
+.width-8-12s {
+    grid-column: span 8;
+  }
+
+.width-9-12s {
+    grid-column: span 9;
+  }
+
+.width-10-12s {
+    grid-column: span 10;
+  }
+
+.width-11-12s {
+    grid-column: span 11;
+  }
+
+.width-12-12s {
+    grid-column: span 12;
+  }
+
+.centered-6 {
+    grid-column: 4 / span 6;
+  }
+
+}
+
+@media (max-width: 450px) {
+
+.width-1-12m {
+    grid-column: span 1;
+  }
+
+.width-2-12m {
+    grid-column: span 2;
+  }
+
+.width-3-12m {
+    grid-column: span 3;
+  }
+
+.width-4-12m {
+    grid-column: span 4;
+  }
+
+.width-5-12m {
+    grid-column: span 5;
+  }
+
+.width-6-12m {
+    grid-column: span 6;
+  }
+
+.width-7-12m {
+    grid-column: span 7;
+  }
+
+.width-8-12m {
+    grid-column: span 8;
+  }
+
+.width-9-12m {
+    grid-column: span 9;
+  }
+
+.width-10-12m {
+    grid-column: span 10;
+  }
+
+.width-11-12m {
+    grid-column: span 11;
+  }
+
+.width-12-12m {
+    grid-column: span 12;
+  }
+
+.centered-6 {
+    grid-column: 4 / span 6;
+  }
+
+}

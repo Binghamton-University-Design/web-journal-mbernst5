@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+	<head>
+
+		<title>Murder Mystery</title>
+
+		<link rel="stylesheet" href="Style/style.css">
+
+	</head>
+
+	<body>
+
+		<video autoplay muted loop id="myVideo">
+			<source src="Media/SLOW.mp4" type="video/mp4">
+			Your browser does not support the video tag.
+		</video>
+
+		<div id="wrapper">
+			<div id="scene">
+
+				<img src="Media/Outside_Closet.png" id="Background">
+
+				<a href="Chose_Loop.html" id="ChoiceNew"></a>
+
+				<a href="Chose_Loop.html" id="ChoiceRun"></a>	
+
+				<p id="Situation">
+					While hiding in the closet, you see the murderer walk past looking for you. What do you do next?
+					<br><a href="Chose_Loop.html">FIND A NEW SPOT</a> or <a href="Chose_Loop.html">RUN OUTSIDE</a>?
+				</p>
+			</div>
+		</div>
+
+		<iframe src="Media/silence.mp3" allow="autoplay" id="audio"></iframe>
+
+		<audio id="music" autoplay loop>
+				 	
+			<source src="Media/Storm.mp3" type="audio/mp3"> 
+
+		</audio>
+
+	</body>
+</html>

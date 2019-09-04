@@ -1,0 +1,424 @@
+body, html {
+
+	font-size: 17px;
+	background-color: #cccccc;
+	color: white;
+	font-family: Tahoma;
+	height:100%;
+	width:100%;
+	padding:0px;
+	margin:0px;
+}
+
+h1 {
+	
+	font-family: Papyrus;
+	font-size: 90px;
+	padding: 0 0 0 0;
+	margin: 0 0 0 0;
+	position: center;
+}
+
+a{
+
+	color: white;
+	text-decoration: none;
+}
+
+a:hover{
+
+	text-decoration: underline;
+}
+
+#header{
+
+	position: absolute;
+	z-index: 1;
+}
+
+#myVideo {
+    
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+}
+
+#wrapper{
+
+	padding: 0 20px;
+  text-align: center;
+  height: 100%; 
+	display: flex; 
+	align-items: center; 
+	justify-content: center;
+	height:100%;
+}
+
+#scene{
+
+	margin: auto;
+	
+	position: relative;
+	background-color: transparent;
+	background-clip: padding-box;
+	height: 400px;
+	width: 700px;
+}
+
+#scenefinal{
+
+	margin: auto;
+	
+	position: relative;
+
+	background-color: transparent;
+	background-clip: padding-box;
+	height: 400px;
+	width: 700px;
+}
+
+#Background{
+	
+	z-index: 0;
+	width: 700px;
+}
+
+#Cabin_pic{
+	position: absolute;
+	top: 20px;
+	left: 50px;
+	z-index: 0;
+	height: 400px;
+}
+
+#situationstart{
+
+	position: absolute;
+	top: 330px;
+	left: 0px;
+	width: 700px;
+	padding: 10px 10px 10px 10px;
+
+	background-color: rgba(0,0,0,0);
+	width: 640px;
+	text-align: center;
+}
+
+#Situation{
+
+	position: absolute;
+	top: 390px;
+	left: 0px;
+	width: 700px;
+	
+
+	background-color: rgba(0,0,0,0);
+	text-align: center;
+}
+
+#SituationHide{
+
+	position: absolute;
+	top: 113px;
+	left: 15px;
+	width: 200px;
+	padding: 10px 10px 10px 10px;
+
+	background-color: rgba(0,0,0,0);
+	width: 240px;
+	text-align: center;
+}
+
+#credit{
+
+	position: absolute;
+	top: 405px;
+	left: 200px;
+	font-size: 10px;
+}
+
+#credit_2{
+
+	position: absolute;
+	top: 425px;
+	left: 250px;
+	font-size: 8px;
+}
+
+#ChoiceV{
+
+	position: left;
+	left: 0px;
+	top: 50px;
+	width: 300px;
+	height: 300px;
+}
+
+#ChoiceV:hover{
+
+	background-color: rgba(256,256,256,.15);
+}
+
+#ChoiceM{
+
+	position: right;
+	left: 315px;
+	top: 50px;
+	width: 300px;
+	height: 300px;
+
+}
+
+#ChoiceM:hover{
+
+	background-color: rgba(256,256,256,.15);
+}
+
+#Picture1{
+
+	position: absolute;
+	left: 10px;
+	top: 70px;
+	width: 300px;
+	transition: all 0.2s ease 0s;
+}
+
+#Picture1:hover{
+
+	background-color: rgba(256,256,256,.25);
+}
+
+#Picture2{
+
+	position: absolute;
+	left: 345px;
+	top: 70px;
+	width: 300px;
+	transition: all 0.2s ease 0s;
+}
+
+#Picture2:hover{
+
+	background-color: rgba(256,256,256,.25);
+	
+}
+
+#PictureL{
+
+	position: absolute;
+	left: 582px;
+	top: 106px;
+	width: 133px;
+	opacity: 0;
+	transition: all 0.2s ease 0s;
+}
+
+#PictureL:hover{
+
+	background-color: rgba(256,256,256,.25);
+	opacity: 1;
+	
+}
+
+#ChoiceBD{
+
+	position: absolute;
+	left: 15px;
+	top: 104px;
+	width: 112px;
+	height: 287px;
+	transition: all 0.2s ease 0s;
+}
+
+#ChoiceBD:hover{
+
+	background-image: url("../Media/Door_Knocker.png");
+	background-color: rgba(256,256,256,.15);
+	background-size: 112px 287px;
+	background-repeat: no-repeat;
+}
+
+#ChoiceSI{
+
+	position: absolute;
+	left: 246px;
+	top: 0px;
+	width: 120px;
+	height: 394px;
+	transition: all 0.2s ease 0s;
+}
+
+#ChoiceSI:hover{
+
+	background-image: url("../Media/Ladder.png");
+	background-color: rgba(256,256,256,.15);
+	background-size: 120px 394px;
+
+}
+
+#ChoiceBI{
+
+	position: absolute;
+	left: 565px;
+	top: 90px;
+	width: 135px;
+	height: 165px;
+	transition: all 0.2s ease 0s;
+}
+
+#ChoiceBI:hover{
+
+	background-image: url("../Media/brick.png");
+	background-color: rgba(256,256,256,.15);
+	background-size: 133px 165px;
+	background-repeat: no-repeat;
+}
+
+#ChoiceH{
+
+	position: absolute;
+	left: 545px;
+	top: 0px;
+	width: 152px;
+	height: 393px;
+	transition: all 0.2s ease 0s;
+}
+
+#ChoiceH:hover{
+
+	background-color: rgba(256,256,256,.15);
+}
+
+#ChoiceK{
+
+	position: absolute;
+	left: 173px;
+	top: 75px;
+	width: 82px;
+	height: 250px;
+	transition: all 0.2s ease 0s;
+}
+
+#ChoiceK:hover{
+
+	background-color: rgba(256,256,256,.15);
+}
+
+#ChoiceS{
+
+	position: absolute;
+	left: 383px;
+	top: 107px;
+	width: 153px;
+	height: 275px;
+	transition: all 0.2s ease 0s;
+}
+
+#ChoiceS:hover{
+
+	background-color: rgba(256,256,256,.15);
+}
+
+#ChoiceE{
+
+	position: absolute;
+	left: 173px;
+	top: 75px;
+	width: 82px;
+	height: 250px;
+	transition: all 0.2s ease 0s;
+}
+
+#ChoiceE:hover{
+
+	background-color: rgba(256,256,256,.5);
+}
+
+#ChoiceCO{
+
+	position: absolute;
+	left: 350px;
+	top: 0px;
+	width: 350px;
+	height: 393px;
+	transition: all 0.2s ease 0s;
+}
+
+#ChoiceCO:hover{
+
+	background-color: rgba(256,256,256,.20);
+}
+
+#ChoiceKnife{
+
+	position: absolute;
+	left: 110px;
+	top: 220px;
+	width: 140px;
+	height: 47px;
+	transition: all 0.2s ease 0s;
+}
+
+#ChoiceKnife:hover{
+
+	background-color: rgba(256,256,256,.15);
+}
+
+#ChoicePin{
+
+	position: absolute;
+	left: 295px;
+	top: 218px;
+	width: 135px;
+	height: 40px;
+	transition: all 0.2s ease 0s;
+}
+
+#ChoicePin:hover{
+
+	background-color: rgba(256,256,256,.15);
+}
+
+#ChoiceAgain{
+	position: absolute;
+	left: 540px;
+	top: 324px;
+	width: 145px;
+	height: 44px;
+	transition: all 0.2s ease 0s;
+}
+
+#ChoiceAgain:hover{
+
+	background-color: rgba(256,256,256,.15);
+}
+
+#ChoiceMess{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 325px;
+	height: 394px;
+	transition: all 0.2s ease 0s;
+}
+
+#ChoiceMess:hover{
+
+	background-color: rgba(256,256,256,.25);
+}
+
+#ChoiceDirect{
+	position: absolute;
+	left: 375px;
+	top: 0px;
+	width: 325px;
+	height: 394px;
+	transition: all 0.2s ease 0s;
+}
+
+#ChoiceDirect:hover{
+
+	background-color: rgba(256,256,256,.25);
+}

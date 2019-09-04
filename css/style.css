@@ -43,6 +43,7 @@ aside {
 body {
   margin: 0 auto;
   max-width: 960px;
+  background-color: gainsboro;
 }
 
 #masthead, #footer {
@@ -72,11 +73,14 @@ img {
 
 h1, h2, h3, h4 {
   margin-top: 0;
-  font-family: 'Work Sans', sans-serif;
+  font-family: 'Baloo', cursive;
 }
 
+h3 {
+  font-size: 16px;
+}
 h4 {
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 300;
   margin-bottom: 0;
   text-transform: uppercase;
@@ -135,12 +139,12 @@ p.footer {
 
 .item p.date {
   margin: 0;
-  color: #bbbbbb;
+  color: darkgray;
   font-size: 12px;
   text-transform: uppercase;
 }
 
-.bio h3 {
+.bio h3, {
   border-top: 1px solid #dddddd;
   margin-top: 1em;
   padding-top: 1em;
