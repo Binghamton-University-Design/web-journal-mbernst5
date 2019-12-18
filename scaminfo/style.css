@@ -1,0 +1,126 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	position: relative;
+	width: auto;
+  height: 24000px;
+  font-family: 'IBM Plex Mono', monospace;
+	text-align:center;
+	background-color: lightgray;
+		
+	}
+/*
+#nav{
+	width: 5%;
+}
+*/
+div h1{
+	padding: 5%;
+}
+div p{
+	padding: -10%;
+}
+div {
+	align-self: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+  width: 100%;
+  text-align: center;
+  font-size: 1em;
+	top: 10%;
+	/* display: flex;
+	align-items: center;
+	justify-content: center; */
+}
+.flex-container{
+	width: 100%;
+	height: auto;
+	flex-flow: column;
+  position: fixed;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  display: flex;
+  overflow: auto;
+	justify-content: center;
+	align-items: center;
+	max-height: 100%;
+
+}
+svg {
+  max-height: 100%;
+  position: fixed;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  display: flex;
+  margin: -250px auto 0;
+  overflow: auto;
+	justify-content: center;
+	align-items: center;
+}
+
+.gp{
+	color: blue;
+}
+.cop-text{
+	color: red;
+}
+
+.sam{
+	color: hotpink;
+}
+.gp p{
+color: blue;
+position: fixed;
+  height:5%;
+  width: 100%;
+  min-height: 20%;
+  text-align: center;
+  top: 50%;
+  font-size: 1em;
+		}
+.sam p{
+color: hotpink;
+position: fixed;
+  height:5%;
+  width: 100%;
+  min-height: 20%;
+  text-align: center;
+  top: 50%;
+  font-size: 1em;
+		}
+.cls-1, .cls-2{
+	fill:none;
+	stroke:#000;
+	stroke-linecap:round;
+	stroke-linejoin:round;
+	stroke-width:5.16px;
+}
+
+path{
+	fill:none;
+	stroke-width:7;
+	stroke-linecap:round;
+	stroke-linejoin:round;
+	stroke-miterlimit:none;
+	stroke-opacity:1; 
+	stroke: #000000;	
+}
+#cover{
+	top: 0;
+	background-image: url("images/back.png");
+	  background-repeat: no-repeat, repeat;
+	background-size:cover;
+	z-index: 3;
+	height: 100%;
+}
+/*@media only screen and (min-height: 500px) {
+  svg {
+    top: 50%;
+    min-height: none;
+  }
+/*
+	</style>.skrollr-body {
+}
